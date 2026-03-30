@@ -1,0 +1,34 @@
+# oil-slick-detection — dependencias
+# Probado con Python 3.10 en Google Colab (2026-03)
+#
+# Instalación rápida:
+#   pip install -r requirements.txt
+#
+# En Colab, agregar el flag:
+#   !pip install -q -r requirements.txt
+
+# --- Imágenes y procesamiento SAR ---
+rasterio>=1.3.9
+scikit-image>=0.21.0
+opencv-python-headless>=4.9.0.80
+Pillow>=10.3.0
+numpy>=1.26.0
+
+# --- Machine Learning ---
+torch>=2.2.0
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0
+joblib>=1.4.0
+
+# --- Google Earth Engine ---
+earthengine-api>=0.1.390
+
+# --- Datos y visualización ---
+pandas>=2.2.0
+folium>=0.16.0
+requests>=2.31.0
+
+# --- Jupyter ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+matplotlib>=3.8.0

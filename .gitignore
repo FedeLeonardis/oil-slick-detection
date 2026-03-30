@@ -1,0 +1,59 @@
+# ==========================================
+#  oil-slick-detection — .gitignore
+# ==========================================
+
+# --- Datos satelitales y datasets de imágenes (demasiado grandes para git) ---
+*.tif
+*.tiff
+*.zip
+*.geojson
+data/kaggle_dataset/
+data/tifs_*/
+# Sí se versiona: data/features_dataset.csv y data/README.md
+
+# --- Metadatos y resultados de ejecución ---
+*.csv
+*.html
+Evidencias_Visuales/
+Expediente_*/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+.env
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Credenciales y claves (NUNCA subir) ---
+*.json
+service_account*.json
+credentials*.json
+gee_token*
+
+# --- Logs ---
+*.log
+logs/
